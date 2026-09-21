@@ -1,3 +1,10 @@
+"""
+Classifies the latest human message across your named models and uses the selected one for every model call in the run. 
+Each ModelChoice pairs a model with the criterion for picking it:
+
+"""
+
+
 from langchain.agents import create_agent
 from langchain_typesafe.experimental.middleware import (
     ModelChoice,
