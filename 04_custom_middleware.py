@@ -41,9 +41,12 @@ agent = create_agent(
     "google_genai:gemini-2.5-flash",
     middleware=[TriageMiddleware()],
 )
+
+
 # result = agent.invoke(
 #     {"messages": [{"role": "user", "content": "Customers are seeing 500 errors."}]}
 # )
+
 
 result = agent.invoke(
     {"messages": [{"role": "user", "content": "Customers are recieving overdue notification."}]}
