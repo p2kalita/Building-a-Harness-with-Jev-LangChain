@@ -1,2 +1,3 @@
 langchain-typesafe[experimental]
 python-dotenv
+langchain-google-genai
