@@ -1,0 +1,2 @@
+langchain-typesafe[experimental]
+python-dotenv
